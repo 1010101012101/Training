@@ -9,6 +9,15 @@ Code, Compile, Run and Debug online from anywhere in world.
 #include <iostream>
 using namespace std;
 
+/*int RandomizedPartition( int *A, int start, ind end)
+{
+    int pIndex = random(start, end);
+    swap(A[pIndex], A[end]);
+    pIndex = PartitionIndex(A, start, end);
+    return pIndex;         
+}
+*/
+
 int PartitionIndex( int *A, int start, int end)
 {
     int pivot = A[end];
