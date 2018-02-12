@@ -5,6 +5,13 @@ GDB online is an online compiler and debugger tool for C, C++, Python, PHP, HTML
 Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
+/*#Time Complexity
+Best case: O(n log n)
+Worst case: O(n log n)
+# Space complexity
+Best case: O(n)
+Worst case: O(n)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
