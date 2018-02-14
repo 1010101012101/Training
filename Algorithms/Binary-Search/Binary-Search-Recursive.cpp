@@ -15,8 +15,8 @@ int BinarySearch(int A[], int low,int high, int x)
     int mid = (low+high)/2;  //low + (high-low)/2   to avaid upper limit 2**31 limits
     
     if(A[mid] == x) return mid;
-    else if( x < A[mid]) BinarySearch( A,low, mid-1, x );
-    else if(x > A[mid])  BinarySearch(A, mid+1, high, x);
+    else if( x < A[mid]) return BinarySearch( A,low, mid-1, x );
+    else if(x > A[mid])  return BinarySearch(A, mid+1, high, x);
 
 
 }
